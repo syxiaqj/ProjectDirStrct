@@ -22,8 +22,6 @@
 		3185EDCB19108FFF00156DF4 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED8319108FFF00156DF4 /* MainVC.m */; };
 		3185EDD019108FFF00156DF4 /* HttpAPIsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED9519108FFF00156DF4 /* HttpAPIsHelper.m */; };
 		3185EDD119108FFF00156DF4 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED9719108FFF00156DF4 /* NetWorkHelper.m */; };
-		3185EDD819108FFF00156DF4 /* RenheCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */; };
-		3185EDE01910950B00156DF4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDDF1910950B00156DF4 /* Card.m */; };
 		3185EDE2191095B800156DF4 /* VenderTest in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDE1191095B800156DF4 /* VenderTest */; };
 		3185EDE4191095CB00156DF4 /* ResourceTest in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDE3191095CB00156DF4 /* ResourceTest */; };
 		3185EDE71910967100156DF4 /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDE61910967100156DF4 /* UserDefaultsHelper.m */; };
@@ -32,6 +30,8 @@
 		3185EDF31910996700156DF4 /* Model1TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDF21910996700156DF4 /* Model1TestManager.m */; };
 		3185EDF8191099B800156DF4 /* Model1TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDF6191099B800156DF4 /* Model1TestVC.m */; };
 		3185EDF9191099B800156DF4 /* Model1TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDF7191099B800156DF4 /* Model1TestVC.xib */; };
+		3185EE0219109DD100156DF4 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3185EE0019109DD100156DF4 /* Test.xcdatamodeld */; };
+		3185EE0519109DEC00156DF4 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EE0419109DEC00156DF4 /* Entity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +70,6 @@
 		3185ED9519108FFF00156DF4 /* HttpAPIsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAPIsHelper.m; sourceTree = "<group>"; };
 		3185ED9619108FFF00156DF4 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
 		3185ED9719108FFF00156DF4 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
-		3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RenheCard.xcdatamodel; sourceTree = "<group>"; };
-		3185EDDE1910950B00156DF4 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ProjectDirStrct/Model/Database/Card.h; sourceTree = SOURCE_ROOT; };
-		3185EDDF1910950B00156DF4 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ProjectDirStrct/Model/Database/Card.m; sourceTree = SOURCE_ROOT; };
 		3185EDE1191095B800156DF4 /* VenderTest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VenderTest; sourceTree = "<group>"; };
 		3185EDE3191095CB00156DF4 /* ResourceTest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceTest; sourceTree = "<group>"; };
 		3185EDE51910967100156DF4 /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
@@ -86,6 +83,9 @@
 		3185EDF5191099B800156DF4 /* Model1TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model1TestVC.h; sourceTree = "<group>"; };
 		3185EDF6191099B800156DF4 /* Model1TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model1TestVC.m; sourceTree = "<group>"; };
 		3185EDF7191099B800156DF4 /* Model1TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Model1TestVC.xib; sourceTree = "<group>"; };
+		3185EE0119109DD100156DF4 /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
+		3185EE0319109DEC00156DF4 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		3185EE0419109DEC00156DF4 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +268,7 @@
 		3185EDA919108FFF00156DF4 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */,
+				3185EE0019109DD100156DF4 /* Test.xcdatamodeld */,
 				3185EDAA19108FFF00156DF4 /* ManagedObject */,
 			);
 			path = Database;
@@ -277,8 +277,8 @@
 		3185EDAA19108FFF00156DF4 /* ManagedObject */ = {
 			isa = PBXGroup;
 			children = (
-				3185EDDE1910950B00156DF4 /* Card.h */,
-				3185EDDF1910950B00156DF4 /* Card.m */,
+				3185EE0319109DEC00156DF4 /* Entity.h */,
+				3185EE0419109DEC00156DF4 /* Entity.m */,
 			);
 			path = ManagedObject;
 			sourceTree = "<group>";
@@ -433,13 +433,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3185EE0519109DEC00156DF4 /* Entity.m in Sources */,
 				3185ED4E19108F9F00156DF4 /* AppDelegate.m in Sources */,
 				3185EDEB1910988100156DF4 /* NSString+Common.m in Sources */,
-				3185EDD819108FFF00156DF4 /* RenheCard.xcdatamodeld in Sources */,
 				3185EDCB19108FFF00156DF4 /* MainVC.m in Sources */,
 				3185ED4A19108F9F00156DF4 /* main.m in Sources */,
-				3185EDE01910950B00156DF4 /* Card.m in Sources */,
 				3185EDEF191098F100156DF4 /* Model1TestMD.m in Sources */,
+				3185EE0219109DD100156DF4 /* Test.xcdatamodeld in Sources */,
 				3185EDF31910996700156DF4 /* Model1TestManager.m in Sources */,
 				3185EDF8191099B800156DF4 /* Model1TestVC.m in Sources */,
 				3185EDD119108FFF00156DF4 /* NetWorkHelper.m in Sources */,
@@ -643,6 +643,7 @@
 				3185ED6819108FA000156DF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3185ED6919108FA000156DF4 /* Build configuration list for PBXNativeTarget "ProjectDirStrctTests" */ = {
 			isa = XCConfigurationList;
@@ -651,17 +652,18 @@
 				3185ED6B19108FA000156DF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */ = {
+		3185EE0019109DD100156DF4 /* Test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */,
+				3185EE0119109DD100156DF4 /* Test.xcdatamodel */,
 			);
-			currentVersion = 3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */;
-			path = RenheCard.xcdatamodeld;
+			currentVersion = 3185EE0119109DD100156DF4 /* Test.xcdatamodel */;
+			path = Test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
