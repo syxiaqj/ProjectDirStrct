@@ -19,6 +19,19 @@
 		3185ED5919108FA000156DF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3185ED4119108F9F00156DF4 /* UIKit.framework */; };
 		3185ED6119108FA000156DF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3185ED5F19108FA000156DF4 /* InfoPlist.strings */; };
 		3185ED6319108FA000156DF4 /* ProjectDirStrctTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED6219108FA000156DF4 /* ProjectDirStrctTests.m */; };
+		3185EDCB19108FFF00156DF4 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED8319108FFF00156DF4 /* MainVC.m */; };
+		3185EDD019108FFF00156DF4 /* HttpAPIsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED9519108FFF00156DF4 /* HttpAPIsHelper.m */; };
+		3185EDD119108FFF00156DF4 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185ED9719108FFF00156DF4 /* NetWorkHelper.m */; };
+		3185EDD819108FFF00156DF4 /* RenheCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */; };
+		3185EDE01910950B00156DF4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDDF1910950B00156DF4 /* Card.m */; };
+		3185EDE2191095B800156DF4 /* VenderTest in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDE1191095B800156DF4 /* VenderTest */; };
+		3185EDE4191095CB00156DF4 /* ResourceTest in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDE3191095CB00156DF4 /* ResourceTest */; };
+		3185EDE71910967100156DF4 /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDE61910967100156DF4 /* UserDefaultsHelper.m */; };
+		3185EDEB1910988100156DF4 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDEA1910988100156DF4 /* NSString+Common.m */; };
+		3185EDEF191098F100156DF4 /* Model1TestMD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDEE191098F100156DF4 /* Model1TestMD.m */; };
+		3185EDF31910996700156DF4 /* Model1TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDF21910996700156DF4 /* Model1TestManager.m */; };
+		3185EDF8191099B800156DF4 /* Model1TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3185EDF6191099B800156DF4 /* Model1TestVC.m */; };
+		3185EDF9191099B800156DF4 /* Model1TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3185EDF7191099B800156DF4 /* Model1TestVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +61,31 @@
 		3185ED5E19108FA000156DF4 /* ProjectDirStrctTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectDirStrctTests-Info.plist"; sourceTree = "<group>"; };
 		3185ED6019108FA000156DF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3185ED6219108FA000156DF4 /* ProjectDirStrctTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectDirStrctTests.m; sourceTree = "<group>"; };
+		3185ED8219108FFF00156DF4 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		3185ED8319108FFF00156DF4 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		3185ED9019108FFF00156DF4 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		3185ED9119108FFF00156DF4 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		3185ED9219108FFF00156DF4 /* VenderMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenderMacro.h; sourceTree = "<group>"; };
+		3185ED9419108FFF00156DF4 /* HttpAPIsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAPIsHelper.h; sourceTree = "<group>"; };
+		3185ED9519108FFF00156DF4 /* HttpAPIsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAPIsHelper.m; sourceTree = "<group>"; };
+		3185ED9619108FFF00156DF4 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		3185ED9719108FFF00156DF4 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RenheCard.xcdatamodel; sourceTree = "<group>"; };
+		3185EDDE1910950B00156DF4 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ProjectDirStrct/Model/Database/Card.h; sourceTree = SOURCE_ROOT; };
+		3185EDDF1910950B00156DF4 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ProjectDirStrct/Model/Database/Card.m; sourceTree = SOURCE_ROOT; };
+		3185EDE1191095B800156DF4 /* VenderTest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VenderTest; sourceTree = "<group>"; };
+		3185EDE3191095CB00156DF4 /* ResourceTest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceTest; sourceTree = "<group>"; };
+		3185EDE51910967100156DF4 /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		3185EDE61910967100156DF4 /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		3185EDE91910988100156DF4 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		3185EDEA1910988100156DF4 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		3185EDED191098F100156DF4 /* Model1TestMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model1TestMD.h; sourceTree = "<group>"; };
+		3185EDEE191098F100156DF4 /* Model1TestMD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model1TestMD.m; sourceTree = "<group>"; };
+		3185EDF11910996700156DF4 /* Model1TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model1TestManager.h; sourceTree = "<group>"; };
+		3185EDF21910996700156DF4 /* Model1TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model1TestManager.m; sourceTree = "<group>"; };
+		3185EDF5191099B800156DF4 /* Model1TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model1TestVC.h; sourceTree = "<group>"; };
+		3185EDF6191099B800156DF4 /* Model1TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model1TestVC.m; sourceTree = "<group>"; };
+		3185EDF7191099B800156DF4 /* Model1TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Model1TestVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +147,13 @@
 			children = (
 				3185ED4C19108F9F00156DF4 /* AppDelegate.h */,
 				3185ED4D19108F9F00156DF4 /* AppDelegate.m */,
+				3185ED6F19108FFF00156DF4 /* Controller */,
+				3185ED9819108FFF00156DF4 /* Manager */,
+				3185EDB119108FFF00156DF4 /* View */,
+				3185ED8C19108FFF00156DF4 /* Helper */,
+				3185EDA819108FFF00156DF4 /* Model */,
+				3185EDAF19108FFF00156DF4 /* Resource */,
+				3185EDB019108FFF00156DF4 /* Vender */,
 				3185ED4F19108F9F00156DF4 /* Images.xcassets */,
 				3185ED4419108F9F00156DF4 /* Supporting Files */,
 			);
@@ -142,6 +187,152 @@
 				3185ED5F19108FA000156DF4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3185ED6F19108FFF00156DF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3185ED8219108FFF00156DF4 /* MainVC.h */,
+				3185ED8319108FFF00156DF4 /* MainVC.m */,
+				3185EDF41910999900156DF4 /* Model1TestMD */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3185ED8C19108FFF00156DF4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3185ED8D19108FFF00156DF4 /* Category */,
+				3185ED8E19108FFF00156DF4 /* Data */,
+				3185ED8F19108FFF00156DF4 /* Macro */,
+				3185ED9319108FFF00156DF4 /* Protocol */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3185ED8D19108FFF00156DF4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDE91910988100156DF4 /* NSString+Common.h */,
+				3185EDEA1910988100156DF4 /* NSString+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3185ED8E19108FFF00156DF4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDE51910967100156DF4 /* UserDefaultsHelper.h */,
+				3185EDE61910967100156DF4 /* UserDefaultsHelper.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3185ED8F19108FFF00156DF4 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				3185ED9019108FFF00156DF4 /* AppMacro.h */,
+				3185ED9119108FFF00156DF4 /* UtilsMacro.h */,
+				3185ED9219108FFF00156DF4 /* VenderMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3185ED9319108FFF00156DF4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3185ED9419108FFF00156DF4 /* HttpAPIsHelper.h */,
+				3185ED9519108FFF00156DF4 /* HttpAPIsHelper.m */,
+				3185ED9619108FFF00156DF4 /* NetWorkHelper.h */,
+				3185ED9719108FFF00156DF4 /* NetWorkHelper.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3185ED9819108FFF00156DF4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDF01910994500156DF4 /* Model1TestMD */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3185EDA819108FFF00156DF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDA919108FFF00156DF4 /* Database */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3185EDA919108FFF00156DF4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */,
+				3185EDAA19108FFF00156DF4 /* ManagedObject */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		3185EDAA19108FFF00156DF4 /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDDE1910950B00156DF4 /* Card.h */,
+				3185EDDF1910950B00156DF4 /* Card.m */,
+			);
+			path = ManagedObject;
+			sourceTree = "<group>";
+		};
+		3185EDAF19108FFF00156DF4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDE3191095CB00156DF4 /* ResourceTest */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3185EDB019108FFF00156DF4 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDE1191095B800156DF4 /* VenderTest */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		3185EDB119108FFF00156DF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDEC191098DF00156DF4 /* Model1TestMD */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3185EDEC191098DF00156DF4 /* Model1TestMD */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDED191098F100156DF4 /* Model1TestMD.h */,
+				3185EDEE191098F100156DF4 /* Model1TestMD.m */,
+			);
+			path = Model1TestMD;
+			sourceTree = "<group>";
+		};
+		3185EDF01910994500156DF4 /* Model1TestMD */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDF11910996700156DF4 /* Model1TestManager.h */,
+				3185EDF21910996700156DF4 /* Model1TestManager.m */,
+			);
+			path = Model1TestMD;
+			sourceTree = "<group>";
+		};
+		3185EDF41910999900156DF4 /* Model1TestMD */ = {
+			isa = PBXGroup;
+			children = (
+				3185EDF5191099B800156DF4 /* Model1TestVC.h */,
+				3185EDF6191099B800156DF4 /* Model1TestVC.m */,
+				3185EDF7191099B800156DF4 /* Model1TestVC.xib */,
+			);
+			path = Model1TestMD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +410,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3185EDE4191095CB00156DF4 /* ResourceTest in Resources */,
 				3185ED4819108F9F00156DF4 /* InfoPlist.strings in Resources */,
 				3185ED5019108F9F00156DF4 /* Images.xcassets in Resources */,
+				3185EDE2191095B800156DF4 /* VenderTest in Resources */,
+				3185EDF9191099B800156DF4 /* Model1TestVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +434,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3185ED4E19108F9F00156DF4 /* AppDelegate.m in Sources */,
+				3185EDEB1910988100156DF4 /* NSString+Common.m in Sources */,
+				3185EDD819108FFF00156DF4 /* RenheCard.xcdatamodeld in Sources */,
+				3185EDCB19108FFF00156DF4 /* MainVC.m in Sources */,
 				3185ED4A19108F9F00156DF4 /* main.m in Sources */,
+				3185EDE01910950B00156DF4 /* Card.m in Sources */,
+				3185EDEF191098F100156DF4 /* Model1TestMD.m in Sources */,
+				3185EDF31910996700156DF4 /* Model1TestManager.m in Sources */,
+				3185EDF8191099B800156DF4 /* Model1TestVC.m in Sources */,
+				3185EDD119108FFF00156DF4 /* NetWorkHelper.m in Sources */,
+				3185EDE71910967100156DF4 /* UserDefaultsHelper.m in Sources */,
+				3185EDD019108FFF00156DF4 /* HttpAPIsHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +564,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectDirStrct/ProjectDirStrct-Prefix.pch";
 				INFOPLIST_FILE = "ProjectDirStrct/ProjectDirStrct-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +578,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProjectDirStrct/ProjectDirStrct-Prefix.pch";
 				INFOPLIST_FILE = "ProjectDirStrct/ProjectDirStrct-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +653,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3185EDAD19108FFF00156DF4 /* RenheCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */,
+			);
+			currentVersion = 3185EDAE19108FFF00156DF4 /* RenheCard.xcdatamodel */;
+			path = RenheCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3185ED3219108F9F00156DF4 /* Project object */;
 }
